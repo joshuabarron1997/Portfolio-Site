@@ -61,16 +61,16 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-					<a class="nav-link" href = "portfolioindex.html">Home</a>
+					<a class="nav-link" href = "index.html">Home</a>
 					</li>
 					<li class="nav-item">
-					<a class="nav-link" href = "portfolioindex.html#about">About Me</a>
+					<a class="nav-link" href = "index.html#about">About Me</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href = "projects.html">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href = "portfolioindex.html#resume">Resume</a>
+						<a class="nav-link" href = "index.html#resume">Resume</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href = "contact.php">Contact</a>
