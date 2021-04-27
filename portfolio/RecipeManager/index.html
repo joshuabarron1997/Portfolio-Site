@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<meta charset="utf-8">
+<title>Recipe Manager</title>
+<script src = "master.js"></script>
+<script>
+
+</script>
+</head>
+<body>
+	<div id = "allContent">
+		<div id = "nav">
+			<a id = "loginBTN" href = "login.php"><div><p>LOG IN</p></div></a>
+			<a id = "contactBTN" href = "contact.php"><div><p>CONTACT ME</p></div></a>
+		</div>	
+		<div class = "clearfix"></div>
+		<div id = "container">
+			<div id = "header">
+				<div id = "recipeInfo">
+					<h1>Recipe Manager</h1>
+					<p>Choose From the Drop Down Menu</p>
+				</div>
+				<div>
+					<select id = "recipeSelect" onChange="recipeSelection()">
+						<option id = "defaultRecipe">Select a Recipe</option>
+					</select>
+
+					<div id = "picture"></div>
+				</div>
+			</div>
+			<div id = "ingredientsToggle" onClick="toggleIngredients()"><p>Toggle Ingredients &#91;-&#93;</p></div>
+			<div id = "ingredients-box">
+				<div id = "ingredients-list">
+					<h3 class = "center">Ingredients:</h3>
+					<ul>
+					</ul>
+				</div>
+				<div>
+					<select id = "quantitySelect" onChange="quantitySelection()">
+						<option>Half</option>
+						<option>Regular</option>
+						<option>Double</option>
+					</select>
+
+
+				</div>
+				<script>quantitySelect.selectedIndex = 1;</script>
+
+			</div>
+			<div id = "bottom">
+				<div id = "instructionsToggle" onClick="toggleInstructions()"><p>Toggle Instructions &#91;-&#93;</p></div>
+
+				<div id = "instructions">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-image: url(shattered-island.gif);}
+
+#allContent {
+	margin-top: 50px;
+	width:auto;
+	height: auto;
+}
+		
+#container {width: 850px;
+			height: auto;
+			border-radius: 45px 45px 45px 45px;
+			background-color: cornflowerblue;
+			margin: auto;
+			border: solid 10px black;
+			padding: 0px;}
+
+#header {width: 840px;
+			height: auto;
+			padding: 0px;
+			border-radius: 20px 20px 0px 0px;
+			background-color: lightcyan;
+			border: solid 5px black;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;}
+
+#recipeSelect {margin-top: 10px;
+				marign-right: 5px;
+				height: 20px;
+				width: 175px;}
+
+#quantitySelect {margin-top: 15px;
+				margin-bottom: 35px;
+				height: 20px;
+				width: 150px;}
+
+#recipeInfo h1 {margin: 0;}
+
+#ingredients-box {width: 850px;
+			height: auto;
+			padding: 0px;
+			background-color: cornflowerblue;
+			border-bottom: solid 5px black;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;}
+
+#instructions {padding: 15px;
+	
+}
+#picture {margin-bottom: 35px;
+			margin-top: 35px;}
+
+#ingredients-list ul { list-style-type: none;
+	
+}
+
+#ingredientsToggle, #instructionsToggle {
+	height: auto;
+	width: 150px;
+	border: black solid 5px;
+	border-top: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ingredientsToggle p, #instructionsToggle p {
+	margin: 0px;
+	pading: 0px;
+}
+
+#toggleButton1 p, #toggleButton2 {
+	font-size: 5em;
+	font-style: bold;
+}
+#bottom {
+	height: auto;
+}
+#nav div {
+	width: 150px;
+	height: 45px;
+	border: black solid 5px;
+	border-bottom: none;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+	background-color: cornflowerblue;
+	text-align: center;
+	
+}
+#nav a div:hover {
+	background-color: aqua;
+}
+#nav a:link, #nav a:visited {
+	text-decoration: none;
+	color: black;
+}
+#nav {
+	width: 850px;
+	margin: 0px auto 0px auto;
+	padding:0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+img {
+/*
+  max-width: 50%;
+  height: auto;
+*/
+}
+#picture {
+/*
+	border-radius: 25px;
+	display:none;
+	background-color:lightgrey;
+	border: 2px solid black;
+	width: 250px;
+	height: 250px;
+*/
+}
+#ingredientsToggle:active {
+	
+}
+
+
+
