@@ -71,6 +71,11 @@ if (isset($_POST['submit'])){
 		$messageERR = "Please Enter a Message";
 		$validPost = false;
 	}
+	//honeypot check
+	$honeypot = $_POST['nameLast'];
+	if(!empty($honeypot)){
+		$validPost = false;
+	}
 	//delivery
 	if($validPost){
 		$mail = new ContactForm();
@@ -154,6 +159,12 @@ if (isset($_POST['submit'])){
 			color: red;
 			font-weight: bold;
 		}
+		.hide {
+			display: none;
+		}
+		input {
+			margin: 5px 0px 5px 0px;
+		}
 		@media only screen and (max-width: 991px){
 			#contact {
 				width: 100%;
@@ -224,6 +235,7 @@ if (isset($_POST['submit'])){
 					<td>
 						<div class = "error"><?php echo $nameERR ?></div>	
 						<input type = "text" name = "name" value = "<?php echo $name?>">
+						<label for = "nameLast" aria-hidden = "true" class = "hide">Last Name</label> <input type = "text" name = "nameLast" id = "nameLast" class = "hide">
 					</td>
 				</tr>
 				<tr>
