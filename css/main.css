@@ -163,7 +163,7 @@ form h1 {
 	background-color: rgb(180, 118, 118);
 	color: white;
 }
-#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9 {
+#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10{
 	margin: 40px auto 40px auto;
 	padding: 0px;
 	width: 400px;
@@ -202,7 +202,7 @@ form h1 {
 	#container {
 		width: 100%;
 	}
-	#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9 {
+	#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9, #card10{
 		width: 600px;
 		height: 417px;
 	}

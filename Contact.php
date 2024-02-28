@@ -266,7 +266,7 @@ if (isset($_POST['submit'])){
 	
 	<footer>
 		<div></div>
-		<p>Website Created by Josh Barron ©2021</p>
+		<p>Website Created by Josh Barron ©2024</p>
 	</footer>
 	
 	
